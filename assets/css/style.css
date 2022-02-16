@@ -13,7 +13,7 @@ body{
     color: azure;
 }
 
-button{
+#counter button{
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -39,4 +39,25 @@ button{
 
 .negative {
     color: red;
+}
+#list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#list button{
+    margin-left: 10px;
+    background-color: rgb(236, 235, 134);
+    border: 2px solid rgb(12, 80, 92);
+    border-radius: 10px;
+    color: rgb(25, 145, 167);
+    font-weight: bold;
+}
+
+#listContent {
+   font-size: 20px;
+}
+
+.listContentActive {
+    text-decoration: line-through;
 }
